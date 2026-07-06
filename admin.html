@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Admin Dashboard - Finova Earns</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="container">
+
+<div class="logo">
+
+👨‍💼 Finova Earns Admin
+
+</div>
+
+<nav>
+
+<a href="dashboard.html">User Dashboard</a>
+
+<a href="support.html">Support</a>
+
+<a href="login.html">Logout</a>
+
+</nav>
+
+</div>
+
+</header>
+
+<section class="dashboard">
+
+<h1>📊 Admin Dashboard</h1>
+
+<p>
+
+Welcome, Administrator.
+
+Manage the entire Finova Earns platform from one place.
+
+</p>
+
+<div class="plan-grid">
+
+<div class="plan-card">
+
+<h2>👥 Total Users</h2>
+
+<h1>0</h1>
+
+</div>
+
+<div class="plan-card">
+
+<h2>🟢 Active Users</h2>
+
+<h1>0</h1>
+
+</div>
+
+<div class="plan-card">
+
+<h2>💰 Total Wallet Balance</h2>
+
+<h1>₦0</h1>
+
+</div>
+
+<div class="plan-card">
+
+<h2>💸 Pending Withdrawals</h2>
+
+<h1>0</h1>
+
+</div>
+
+<div class="plan-card">
+
+<h2>⭐ Pending Upgrades</h2>
+
+<h1>0</h1>
+
+</div>
+
+<div class="plan-card">
+
+<h2>🆔 Pending Withdrawal IDs</h2>
+
+<h1>0</h1>
+
+</div>
+
+</div>
+
+<div class="dashboard-card">
+
+<h2>🔔 Notification Center</h2>
+
+<ul>
+
+<li>No new notifications.</li>
+
+</ul>
+
+  </div>
+  <div class="dashboard-card">
+
+<h2>👥 User Management</h2>
+
+<input
+type="text"
+placeholder="Search by username or email">
+
+<table>
+
+<tr>
+
+<th>User</th>
+
+<th>Membership</th>
+
+<th>Status</th>
+
+<th>Action</th>
+
+</tr>
+
+<tr>
+
+<td>No users yet.</td>
+
+<td>--</td>
+
+<td>--</td>
+
+<td>
+
+<button>View</button>
+
+</td>
+
+</tr>
+
+</table>
+
+</div>
+
+<div class="dashboard-card">
+
+<h2>💳 Pending Payments</h2>
+
+<table>
+
+<tr>
+
+<th>Type</th>
+
+<th>User</th>
+
+<th>Status</th>
+
+<th>Action</th>
+
+</tr>
+
+<tr>
+
+<td>No pending payments.</td>
+
+<td>--</td>
+
+<td>Pending</td>
+
+<td>
+
+<button>Review</button>
+
+</td>
+
+</tr>
+
+</table>
+
+</div>
+<div class="dashboard-card">
+
+<h2>⚙️ Platform Settings</h2>
+
+<form>
+
+<label>Welcome Bonus (₦)</label>
+
+<input type="number" value="120000">
+
+<label>Withdrawal ID Fee (₦)</label>
+
+<input type="number" value="10000">
+
+<label>Daily Bonus (₦)</label>
+
+<input type="number" value="500">
+
+<label>Weekly Bonus (₦)</label>
+
+<input type="number" value="10000">
+
+<label>Official Bank Name</label>
+
+<input type="text" value="GTBank">
+
+<label>Account Name</label>
+
+<input type="text" value="NWOBA CHINASA ANNA">
+
+<label>Account Number</label>
+
+<input type="text" value="0044193121">
+
+<button class="primary-btn" type="submit">
+
+💾 Save Settings
+
+</button>
+
+</form>
+
+</div>
+
+<div class="dashboard-card">
+
+<h2>📢 Announcement Center</h2>
+
+<textarea
+rows="5"
+placeholder="Write an announcement for all users..."></textarea>
+
+<button class="primary-btn">
+
+📤 Publish Announcement
+
+</button>
+
+</div>
+
+<div class="dashboard-card">
+
+<h2>📊 Platform Reports</h2>
+
+<p><strong>Total Registered Users:</strong> 0</p>
+
+<p><strong>Total Withdrawals:</strong> ₦0</p>
+
+<p><strong>Total Upgrades:</strong> 0</p>
+
+<p><strong>Total Withdrawal IDs Sold:</strong> 0</p>
+
+<p><strong>Total Referral Rewards:</strong> ₦0</p>
+
+</div>
+
+<div class="dashboard-card">
+
+<h2>📧 Email Center</h2>
+
+<button class="primary-btn">
+
+📨 Send Email to All Users
+
+</button>
+
+<button class="secondary-btn">
+
+📩 Send Email to One User
+
+</button>
+
+</div>
+
+<div class="dashboard-card">
+
+<h2>🚫 Blacklist Manager</h2>
+
+<input
+type="text"
+placeholder="Enter username or email">
+
+<button class="primary-btn">
+
+🚫 Block User
+
+</button>
+
+  </div>
+  <div class="dashboard-card">
+
+<h2>📜 Admin Activity Log</h2>
+
+<table>
+
+<tr>
+<th>Date</th>
+<th>Activity</th>
+<th>Status</th>
+</tr>
+
+<tr>
+<td>No activity yet.</td>
+<td>--</td>
+<td>--</td>
+</tr>
+
+</table>
+
+</div>
+
+<div class="dashboard-card">
+
+<h2>💾 Backup & Restore</h2>
+
+<button class="primary-btn">
+
+💾 Create Backup
+
+</button>
+
+<button class="secondary-btn">
+
+📥 Restore Backup
+
+</button>
+
+</div>
+
+<div style="text-align:center; margin-top:30px;">
+
+<a href="dashboard.html" class="secondary-btn">
+
+⬅ Return to User Dashboard
+
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+
+© 2026 Finova Earns Admin Panel. All Rights Reserved.
+
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+  </html>
