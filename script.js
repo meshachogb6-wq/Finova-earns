@@ -65,3 +65,22 @@ topBtn.addEventListener("click", () => {
         behavior: "smooth"
     });
 });
+function logout() {
+
+    if (confirm("Are you sure you want to logout?")) {
+
+        // Remove saved login information
+        localStorage.removeItem("loggedInUser");
+        localStorage.removeItem("userToken");
+
+        // Go back to login page
+        window.location.href = "login.html";
+    }
+
+}
+
+function logoutAllDevices() {
+
+    alert("This feature will be available after the backend is connected.");
+
+                    }
